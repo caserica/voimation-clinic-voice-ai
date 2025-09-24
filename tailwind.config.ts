@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +60,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Voimation Custom Colors
+        "electric-blue": "hsl(var(--electric-blue))",
+        "electric-purple": "hsl(var(--electric-purple))",
+        "neon-cyan": "hsl(var(--neon-cyan))",
+        "deep-space": "hsl(var(--deep-space))",
+        "space-gray": "hsl(var(--space-gray))",
+        "cosmic-purple": "hsl(var(--cosmic-purple))",
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-cosmic": "var(--gradient-cosmic)",
+        "gradient-glow": "var(--gradient-glow)",
       },
       borderRadius: {
         lg: "var(--radius)",
