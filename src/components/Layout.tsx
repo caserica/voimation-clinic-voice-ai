@@ -33,7 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
               <img 
                 src="/lovable-uploads/43e0bbca-22a9-4160-8168-64144d5b951d.png" 
                 alt="Voimation Logo" 
-                className="h-10 w-auto"
+                className="h-16 w-auto"
               />
             </Link>
             
