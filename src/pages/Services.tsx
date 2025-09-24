@@ -102,29 +102,29 @@ const Services = () => {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-              <Card key={index} className="card-float bg-card/50 border-space-gray overflow-hidden">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-                  <CardHeader className="p-8 lg:p-12">
-                    <div className="flex items-center space-x-4 mb-6">
-                      <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-xl">
-                        <Icon className="h-8 w-8 text-deep-space" />
+                <Card key={index} className="card-float bg-card/50 border-space-gray overflow-hidden rounded-3xl">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+                    <CardHeader className="p-8 lg:p-12">
+                      <div className="flex items-center space-x-4 mb-6">
+                        <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-3xl">
+                          <Icon className="h-8 w-8 text-deep-space" />
+                        </div>
+                        <CardTitle className="text-2xl font-bold text-foreground">
+                          {service.title}
+                        </CardTitle>
                       </div>
-                      <CardTitle className="text-2xl font-bold text-foreground">
-                        {service.title}
-                      </CardTitle>
-                    </div>
-                    <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                      {service.description}
-                    </p>
-                    <Button 
-                      asChild 
-                      className="btn-glow bg-gradient-primary w-fit"
-                    >
-                      <a href="mailto:support@voimation.com">
-                        Get Started with {service.title}
-                      </a>
-                    </Button>
-                  </CardHeader>
+                      <p className="text-muted-foreground text-lg leading-relaxed mb-8">
+                        {service.description}
+                      </p>
+                      <Button 
+                        asChild 
+                        className="btn-glow bg-gradient-primary w-fit"
+                      >
+                        <a href="mailto:support@voimation.com">
+                          Get Started
+                        </a>
+                      </Button>
+                    </CardHeader>
                   
                   <CardContent className="p-8 lg:p-12 bg-space-gray/30">
                     <h4 className="font-semibold text-foreground mb-4 text-lg">
@@ -147,7 +147,7 @@ const Services = () => {
 
         {/* CTA Section */}
         <div className="mt-20 text-center">
-          <Card className="bg-gradient-cosmic border-0 p-8 lg:p-12">
+          <Card className="bg-gradient-cosmic border-0 p-8 lg:p-12 rounded-3xl">
             <h2 className="text-3xl font-bold text-deep-space mb-4">
               Ready to Transform Your Patient Communication?
             </h2>

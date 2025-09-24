@@ -1,5 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -7,6 +9,7 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
     { name: "Home", path: "/" },
@@ -24,17 +27,17 @@ const Layout = ({ children }: LayoutProps) => {
     <div className="min-h-screen bg-gradient-hero">
       {/* Navigation */}
       <nav className="border-b border-space-gray/30 backdrop-blur-xl bg-deep-space/80 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-6">
           <div className="flex justify-between items-center h-20">
             <Link to="/" className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/43e0bbca-22a9-4160-8168-64144d5b951d.png" 
                 alt="Voimation Logo" 
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
-              <span className="text-xl font-bold text-gradient">Voimation</span>
             </Link>
             
+            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
               {navItems.map((item) => (
                 <Link
@@ -53,7 +56,47 @@ const Layout = ({ children }: LayoutProps) => {
                 <a href="mailto:support@voimation.com">Get Started</a>
               </Button>
             </div>
+
+            {/* Mobile Hamburger Menu */}
+            <button
+              className="md:hidden p-2"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? (
+                <X className="h-8 w-8 text-foreground" />
+              ) : (
+                <Menu className="h-8 w-8 text-foreground" />
+              )}
+            </button>
           </div>
+
+          {/* Mobile Navigation Menu */}
+          {isMenuOpen && (
+            <div className="md:hidden py-4 border-t border-space-gray/30">
+              <div className="flex flex-col space-y-4">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.path}
+                    to={item.path}
+                    onClick={() => setIsMenuOpen(false)}
+                    className={`px-4 py-2 transition-colors duration-200 ${
+                      location.pathname === item.path
+                        ? "text-electric-blue"
+                        : "text-foreground hover:text-electric-blue"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+                <div className="px-4 pt-2">
+                  <Button asChild variant="outline" className="btn-glow w-full">
+                    <a href="mailto:support@voimation.com">Get Started</a>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 

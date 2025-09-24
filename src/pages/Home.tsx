@@ -48,14 +48,6 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-hero" />
         
         <div className="relative max-w-7xl mx-auto px-6 text-center">
-          <div className="hero-glow inline-block mb-8">
-            <img 
-              src="/lovable-uploads/43e0bbca-22a9-4160-8168-64144d5b951d.png" 
-              alt="Voimation Logo" 
-              className="h-16 w-auto mx-auto mb-6"
-            />
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
             Stop Losing Patients to <span className="text-gradient">Missed Calls</span>
           </h1>
@@ -70,7 +62,7 @@ const Home = () => {
             className="btn-glow bg-gradient-primary text-lg px-8 py-4 h-auto"
           >
             <a href="mailto:support@voimation.com">
-              Book a Demo – Keep Every Patient Engaged
+              Book a Call
             </a>
           </Button>
         </div>

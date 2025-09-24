@@ -178,7 +178,7 @@ const Pricing = () => {
                       }`}
                     >
                       <a href="mailto:support@voimation.com">
-                        Start Automating – Email Us Today
+                        Start Automating
                       </a>
                     </Button>
                   </div>
