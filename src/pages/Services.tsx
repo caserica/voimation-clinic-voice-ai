@@ -160,7 +160,7 @@ const Services = () => {
                 asChild 
                 variant="outline" 
                 size="lg"
-                className="border-deep-space text-deep-space hover:bg-deep-space hover:text-foreground"
+                className="border-deep-space text-white hover:bg-deep-space hover:text-white"
               >
                 <a href="https://calendly.com/voimation/30min">Schedule a Demo</a>
               </Button>
