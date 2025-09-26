@@ -106,7 +106,7 @@ const Services = () => {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                     <CardHeader className="p-8 lg:p-12">
                       <div className="flex items-center space-x-4 mb-6">
-                        <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-lg">
+                        <div className="flex items-center justify-center w-12 h-12 bg-gradient-primary rounded-lg">
                           <Icon className="h-8 w-8 text-deep-space" />
                         </div>
                         <CardTitle className="text-2xl font-bold text-foreground">

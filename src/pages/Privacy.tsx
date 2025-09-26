@@ -88,7 +88,7 @@ const Privacy = () => {
               <Card key={index} className="bg-card/50 border-space-gray rounded-lg">
                 <CardHeader>
                   <div className="flex items-center space-x-3">
-                    <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-lg">
+                    <div className="flex items-center justify-center w-12 h-12 bg-gradient-primary rounded-lg">
                       <Icon className="h-5 w-5 text-deep-space" />
                     </div>
                     <CardTitle className="text-foreground">{section.title}</CardTitle>
@@ -112,7 +112,7 @@ const Privacy = () => {
           <Card className="bg-card/50 border-space-gray rounded-lg">
             <CardHeader>
               <CardTitle className="text-foreground flex items-center space-x-3">
-                <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-lg">
+                <div className="flex items-center justify-center w-12 h-12 bg-gradient-primary rounded-lg">
                   <Database className="h-5 w-5 text-deep-space" />
                 </div>
                 <span>Data Retention & Deletion</span>
