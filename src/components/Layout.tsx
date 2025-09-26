@@ -33,7 +33,7 @@ const Layout = ({ children }: LayoutProps) => {
               <img 
                 src="/lovable-uploads/43e0bbca-22a9-4160-8168-64144d5b951d.png" 
                 alt="Voimation Logo" 
-                className="h-16 w-auto"
+                className="h-24 w-auto"
               />
             </Link>
             
@@ -53,7 +53,7 @@ const Layout = ({ children }: LayoutProps) => {
                 </Link>
               ))}
               <Button asChild variant="outline" className="btn-glow">
-                <a href="mailto:support@voimation.com">Get Started</a>
+                <a href="https://calendly.com/voimation/30min">Get Started</a>
               </Button>
             </div>
 
@@ -91,7 +91,7 @@ const Layout = ({ children }: LayoutProps) => {
                 ))}
                 <div className="px-4 pt-2">
                   <Button asChild variant="outline" className="btn-glow w-full">
-                    <a href="mailto:support@voimation.com">Get Started</a>
+                    <a href="https://calendly.com/voimation/30min">Get Started</a>
                   </Button>
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Layout = ({ children }: LayoutProps) => {
                 with patients 24/7. Never miss a patient again.
               </p>
               <Button asChild className="btn-glow">
-                <a href="mailto:support@voimation.com">Start Automating Today</a>
+                <a href="https://calendly.com/voimation/30min">Start Automating Today</a>
               </Button>
             </div>
             

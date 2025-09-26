@@ -102,11 +102,11 @@ const Services = () => {
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
-                <Card key={index} className="card-float bg-card/50 border-space-gray overflow-hidden rounded-3xl">
+                <Card key={index} className="card-float bg-card/50 border-space-gray overflow-hidden rounded-lg">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
                     <CardHeader className="p-8 lg:p-12">
                       <div className="flex items-center space-x-4 mb-6">
-                        <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-3xl">
+                        <div className="flex items-center justify-center w-16 h-16 bg-gradient-primary rounded-lg">
                           <Icon className="h-8 w-8 text-deep-space" />
                         </div>
                         <CardTitle className="text-2xl font-bold text-foreground">
@@ -120,7 +120,7 @@ const Services = () => {
                         asChild 
                         className="btn-glow bg-gradient-primary w-fit"
                       >
-                        <a href="mailto:support@voimation.com">
+                        <a href="https://calendly.com/voimation/30min">
                           Get Started
                         </a>
                       </Button>
@@ -147,7 +147,7 @@ const Services = () => {
 
         {/* CTA Section */}
         <div className="mt-20 text-center">
-          <Card className="bg-gradient-cosmic border-0 p-8 lg:p-12 rounded-3xl">
+          <Card className="bg-gradient-cosmic border-0 p-8 lg:p-12 rounded-lg">
             <h2 className="text-3xl font-bold text-deep-space mb-4">
               Ready to Transform Your Patient Communication?
             </h2>
@@ -155,21 +155,14 @@ const Services = () => {
               Join hundreds of healthcare providers who have automated their patient calls 
               and increased retention with Voimation.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                asChild 
-                size="lg" 
-                className="bg-deep-space text-foreground hover:bg-deep-space/90"
-              >
-                <a href="/pricing">View Pricing Plans</a>
-              </Button>
+            <div className="flex justify-center">
               <Button 
                 asChild 
                 variant="outline" 
                 size="lg"
                 className="border-deep-space text-deep-space hover:bg-deep-space hover:text-foreground"
               >
-                <a href="mailto:support@voimation.com">Schedule a Demo</a>
+                <a href="https://calendly.com/voimation/30min">Schedule a Demo</a>
               </Button>
             </div>
           </Card>

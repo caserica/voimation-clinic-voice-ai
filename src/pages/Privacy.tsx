@@ -85,10 +85,10 @@ const Privacy = () => {
           {sections.map((section, index) => {
             const Icon = section.icon;
             return (
-              <Card key={index} className="bg-card/50 border-space-gray rounded-3xl">
+              <Card key={index} className="bg-card/50 border-space-gray rounded-lg">
                 <CardHeader>
                   <div className="flex items-center space-x-3">
-                    <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-2xl">
+                    <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-lg">
                       <Icon className="h-5 w-5 text-deep-space" />
                     </div>
                     <CardTitle className="text-foreground">{section.title}</CardTitle>
@@ -109,10 +109,10 @@ const Privacy = () => {
           })}
 
           {/* Data Retention */}
-          <Card className="bg-card/50 border-space-gray rounded-3xl">
+          <Card className="bg-card/50 border-space-gray rounded-lg">
             <CardHeader>
               <CardTitle className="text-foreground flex items-center space-x-3">
-                <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-2xl">
+                <div className="flex items-center justify-center w-10 h-10 bg-gradient-primary rounded-lg">
                   <Database className="h-5 w-5 text-deep-space" />
                 </div>
                 <span>Data Retention & Deletion</span>
@@ -137,7 +137,7 @@ const Privacy = () => {
           </Card>
 
           {/* Your Rights */}
-          <Card className="bg-card/50 border-space-gray rounded-3xl">
+          <Card className="bg-card/50 border-space-gray rounded-lg">
             <CardHeader>
               <CardTitle className="text-foreground">Your Rights & Choices</CardTitle>
             </CardHeader>
@@ -161,7 +161,7 @@ const Privacy = () => {
           </Card>
 
           {/* Contact Information */}
-          <Card className="bg-gradient-cosmic border-0 rounded-3xl">
+          <Card className="bg-gradient-cosmic border-0 rounded-lg">
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold text-deep-space mb-4">
                 Privacy Questions or Concerns?
@@ -173,19 +173,12 @@ const Privacy = () => {
               <div className="bg-deep-space/10 rounded-lg p-4 mb-6">
                 <p className="text-deep-space font-mono text-lg">support@voimation.com</p>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
+              <div className="flex justify-center">
                 <Button 
                   asChild 
-                  className="bg-deep-space text-foreground hover:bg-deep-space/90 flex-1"
+                  className="bg-deep-space text-foreground hover:bg-deep-space/90"
                 >
                   <a href="mailto:support@voimation.com">Contact Privacy Team</a>
-                </Button>
-                <Button 
-                  asChild 
-                  variant="outline"
-                  className="border-deep-space text-deep-space hover:bg-deep-space hover:text-foreground flex-1"
-                >
-                  <a href="/terms">View Terms of Service</a>
                 </Button>
               </div>
             </CardContent>

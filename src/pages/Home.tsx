@@ -61,7 +61,7 @@ const Home = () => {
             size="lg" 
             className="btn-glow bg-gradient-primary text-lg px-8 py-4 h-auto"
           >
-            <a href="mailto:support@voimation.com">
+            <a href="https://calendly.com/voimation/30min">
               Book a Call
             </a>
           </Button>
@@ -144,7 +144,7 @@ const Home = () => {
             size="lg" 
             className="btn-glow bg-gradient-primary text-lg px-8 py-4 h-auto"
           >
-            <a href="mailto:support@voimation.com">
+            <a href="https://calendly.com/voimation/30min">
               Start Automating Now
             </a>
           </Button>

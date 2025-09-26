@@ -177,7 +177,7 @@ const Pricing = () => {
                           : 'btn-glow'
                       }`}
                     >
-                      <a href="mailto:support@voimation.com">
+                      <a href="https://calendly.com/voimation/30min">
                         Start Automating
                       </a>
                     </Button>
@@ -263,7 +263,7 @@ const Pricing = () => {
               size="lg" 
               className="bg-deep-space text-foreground hover:bg-deep-space/90"
             >
-              <a href="mailto:support@voimation.com">
+              <a href="https://calendly.com/voimation/30min">
                 Schedule Your Demo Today
               </a>
             </Button>
