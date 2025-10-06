@@ -560,7 +560,7 @@ class Router {
                       <span style="margin-right: 1rem; font-size: 1.25rem;">📧</span>
                       <div>
                         <strong>Email</strong><br>
-                        <a href="mailto:hello@voimation.com" class="nav-link">hello@voimation.com</a>
+                        <a href="mailto:hello@voimation.info" class="nav-link">hello@voimation.info</a>
                       </div>
                     </div>
                     <div class="flex items-center">
@@ -607,7 +607,7 @@ class Router {
               
               <div class="space-y-2">
                 <p style="color: hsl(var(--muted-foreground));">
-                  📧 <a href="mailto:hello@voimation.com" class="nav-link">hello@voimation.com</a>
+                  📧 <a href="mailto:hello@voimation.info" class="nav-link">hello@voimation.info</a>
                 </p>
                 <p style="color: hsl(var(--muted-foreground));">
                   📞 <a href="tel:+15551234567" class="nav-link">+1 (555) 123-4567</a>

@@ -130,7 +130,7 @@ function voimation_customize_register($wp_customize) {
     ));
     
     $wp_customize->add_setting('voimation_email', array(
-        'default' => 'hello@voimation.com',
+        'default' => 'hello@voimation.info',
         'sanitize_callback' => 'sanitize_email',
     ));
     

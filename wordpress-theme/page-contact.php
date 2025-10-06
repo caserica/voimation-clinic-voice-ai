@@ -88,9 +88,9 @@ get_header(); ?>
                                 <span class="text-2xl mr-4">📧</span>
                                 <div>
                                     <p class="font-medium text-card-foreground">Email</p>
-                                    <a href="mailto:<?php echo esc_attr(get_theme_mod('voimation_email', 'hello@voimation.com')); ?>" 
+                                    <a href="mailto:<?php echo esc_attr(get_theme_mod('voimation_email', 'hello@voimation.info')); ?>" 
                                        class="text-primary hover:underline">
-                                        <?php echo esc_html(get_theme_mod('voimation_email', 'hello@voimation.com')); ?>
+                                        <?php echo esc_html(get_theme_mod('voimation_email', 'hello@voimation.info')); ?>
                                     </a>
                                 </div>
                             </div>

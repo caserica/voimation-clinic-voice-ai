@@ -80,7 +80,7 @@ Modify `assets/css/styles.css` to change:
 
 ### Update Contact Information
 Search for and replace:
-- `hello@voimation.com`
+- `hello@voimation.info`
 - `+1 (555) 123-4567`
 - `https://calendly.com/voimation/30min`
 

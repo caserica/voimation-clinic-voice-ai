@@ -137,7 +137,7 @@ Practice Size: ${data.practice_size || 'Not specified'}
 Message: ${data.message}
                 `);
                 
-                window.location.href = `mailto:hello@voimation.com?subject=${subject}&body=${body}`;
+                window.location.href = `mailto:hello@voimation.info?subject=${subject}&body=${body}`;
             });
         }
     }

@@ -171,14 +171,14 @@ const Privacy = () => {
                 or to exercise your privacy rights.
               </p>
               <div className="bg-deep-space/10 rounded-lg p-4 mb-6">
-                <p className="text-deep-space font-mono text-lg">support@voimation.com</p>
+                <p className="text-deep-space font-mono text-lg">support@voimation.info</p>
               </div>
               <div className="flex justify-center">
                 <Button 
                   asChild 
                   className="bg-deep-space text-foreground hover:bg-deep-space/90"
                 >
-                  <a href="mailto:support@voimation.com">Contact Privacy Team</a>
+                  <a href="mailto:support@voimation.info">Contact Privacy Team</a>
                 </Button>
               </div>
             </CardContent>

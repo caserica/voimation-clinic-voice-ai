@@ -19,9 +19,9 @@
                     
                     <div class="space-y-2">
                         <p class="text-muted-foreground">
-                            📧 <a href="mailto:<?php echo esc_attr(get_theme_mod('voimation_email', 'hello@voimation.com')); ?>" 
+                            📧 <a href="mailto:<?php echo esc_attr(get_theme_mod('voimation_email', 'hello@voimation.info')); ?>" 
                                   class="hover:text-primary transition-colors">
-                                <?php echo esc_html(get_theme_mod('voimation_email', 'hello@voimation.com')); ?>
+                                <?php echo esc_html(get_theme_mod('voimation_email', 'hello@voimation.info')); ?>
                             </a>
                         </p>
                         <p class="text-muted-foreground">

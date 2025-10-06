@@ -161,8 +161,8 @@ const Layout = ({ children }: LayoutProps) => {
           <div className="border-t border-space-gray/30 mt-8 pt-8 text-center">
             <p className="text-muted-foreground">
               © 2024 Voimation. All rights reserved. | 
-              <a href="mailto:support@voimation.com" className="hover:text-electric-blue ml-1">
-                support@voimation.com
+              <a href="mailto:support@voimation.info" className="hover:text-electric-blue ml-1">
+                support@voimation.info
               </a>
             </p>
           </div>

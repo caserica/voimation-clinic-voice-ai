@@ -24,7 +24,7 @@ const Contact = () => {
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
     
-    window.location.href = `mailto:support@voimation.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:support@voimation.info?subject=${subject}&body=${body}`;
     
     toast({
       title: "Opening email client...",
@@ -136,10 +136,10 @@ const Contact = () => {
                 </div>
                 <div className="bg-space-gray/50 rounded-lg p-4">
                   <a 
-                    href="mailto:support@voimation.com"
+                    href="mailto:support@voimation.info"
                     className="text-electric-blue hover:text-electric-purple transition-colors font-mono text-lg"
                   >
-                    support@voimation.com
+                    support@voimation.info
                   </a>
                 </div>
               </CardContent>
@@ -201,7 +201,7 @@ const Contact = () => {
                   asChild 
                   className="bg-deep-space text-foreground hover:bg-deep-space/90"
                 >
-                  <a href="mailto:support@voimation.com">
+                  <a href="mailto:support@voimation.info">
                     Email Us Now
                   </a>
                 </Button>

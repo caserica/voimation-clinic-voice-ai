@@ -146,7 +146,7 @@ const Terms = () => {
                 If you have any questions about these Terms of Service, please contact us at:
               </p>
               <div className="bg-space-gray/50 rounded-lg p-4">
-                <p className="text-electric-blue font-mono">support@voimation.com</p>
+                <p className="text-electric-blue font-mono">support@voimation.info</p>
               </div>
               <p className="text-sm">
                 We will respond to all inquiries within 24 hours during business days.
